@@ -4,7 +4,8 @@
   "description": "second lab for advance server side scripting",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Arciles/COMP2016-Lab2/issues"
   },
-  "homepage": "https://github.com/Arciles/COMP2016-Lab2#readme"
+  "homepage": "https://github.com/Arciles/COMP2016-Lab2#readme",
+  "dependencies": {
+    "connect": "^3.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
