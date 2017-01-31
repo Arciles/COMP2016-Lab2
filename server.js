@@ -35,13 +35,13 @@ app.use('/lab2', function (req, res, next) {
 app.use('/', function (req, res, next) {
     res.end(`<h1>Welcome to super awesome calculator site on the Galaxy</h1>
              <p>Some test links for you
-             <a href="http://localhost:3000/lab2?method=add&x=16&y=4">16+4</a>
+             <a href="https://comp2016-lab2.herokuapp.com/lab2?method=add&x=16&y=4">16+4</a>
              <br>
-             <a href="http://localhost:3000/lab2?method=subtract&x=16&y=4">16-4</a>
+             <a href="https://comp2016-lab2.herokuapp.com/lab2?method=subtract&x=16&y=4">16-4</a>
              <br>
-             <a href="http://localhost:3000/lab2?method=multiply&x=16&y=4">16*4</a>
+             <a href="https://comp2016-lab2.herokuapp.com/lab2?method=multiply&x=16&y=4">16*4</a>
              <br>
-             <a href="http://localhost:3000/lab2?method=divide&x=16&y=4">16/4</a></p>`)
+             <a href="https://comp2016-lab2.herokuapp.com/lab2?method=divide&x=16&y=4">16/4</a></p>`)
 })
 app.listen(process.env.PORT || 3000);
 console.log('App is serving at the port 3000');
